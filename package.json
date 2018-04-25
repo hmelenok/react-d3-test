@@ -4,5 +4,30 @@
   "main": "index.js",
   "repository": "git@github.com:hmelenok/react-d3-test.git",
   "author": "Khmel Mykyta <hmelenok@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "d3": "^5.1.0",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-react": "^7.7.0",
+    "file-loader": "^1.1.11",
+    "image-webpack-loader": "^4.2.0",
+    "node-sass": "^4.8.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack-dev-server": "^3.1.3"
+  }
 }
