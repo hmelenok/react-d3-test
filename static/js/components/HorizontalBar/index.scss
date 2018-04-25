@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.HorizontalBar {
+  width: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  &__item {
+    position: relative;
+    &:before {
+      content: attr(data-label);
+      position: absolute;
+      padding: 0 3px;
+      font-size: 14px;
+      color: #2a303b;
+      border-radius: 3px;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: opacity 250ms ease;
+    }
+    &:hover:before {
+      opacity: 1;
+    }
+  }
+}
