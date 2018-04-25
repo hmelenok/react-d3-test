@@ -3,8 +3,10 @@ import HorizontalBar from './components/HorizontalBar';
 
 export default class App extends React.Component {
   render() {
-    return (<div className={'App'}>
-      <HorizontalBar/>
-    </div>);
+    return (
+      <div className={'App'}>
+        <HorizontalBar />
+      </div>
+    );
   }
 }
