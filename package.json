@@ -1,0 +1,8 @@
+{
+  "name": "react-d3-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hmelenok/react-d3-test.git",
+  "author": "Khmel Mykyta <hmelenok@gmail.com>",
+  "license": "MIT"
+}
