@@ -7,9 +7,7 @@
     "browser": true,
     "mocha": true
   },
-  "extends": [
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["plugin:prettier/recommended"],
   "parserOptions": {
     "ecmaVersion": 2017,
     "sourceType": "module",

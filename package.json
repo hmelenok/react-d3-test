@@ -28,6 +28,7 @@
     "eslint-plugin-react": "^7.7.0",
     "file-loader": "^1.1.11",
     "image-webpack-loader": "^4.2.0",
+    "lodash": "^4.17.10",
     "node-sass": "^4.8.3",
     "prettier": "^1.12.1",
     "react": "^16.3.2",
