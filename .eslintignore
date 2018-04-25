@@ -1,0 +1,7 @@
+.idea/
+coverage/
+draft.js
+lib/
+node_modules/
+package.json
+packages/**/package.json

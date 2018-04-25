@@ -5,6 +5,10 @@
   "repository": "git@github.com:hmelenok/react-d3-test.git",
   "author": "Khmel Mykyta <hmelenok@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "eslint .",
+    "start": "webpack-dev-server --colors --progress --inline --hot"
+  },
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
@@ -18,16 +22,21 @@
     "css-loader": "^0.28.11",
     "d3": "^5.1.0",
     "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-loader": "^2.0.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "file-loader": "^1.1.11",
     "image-webpack-loader": "^4.2.0",
     "node-sass": "^4.8.3",
+    "prettier": "^1.12.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
     "webpack-dev-server": "^3.1.3"
   }
 }
